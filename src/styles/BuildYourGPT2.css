@@ -1,0 +1,42 @@
+.build-gpt-page {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f9fbff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 30, 60, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+}
+
+.build-gpt-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #003366;
+  text-align: center;
+}
+
+.build-gpt-page p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.build-gpt-page ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.build-gpt-page li {
+  background: #e6f0ff;
+  border-left: 5px solid #0055cc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.build-gpt-page li:hover {
+  background: #d6e6ff;
+}

@@ -1,0 +1,89 @@
+/* styles/UnderstandingGeneralLLMs.css */
+
+
+.llm-page {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+ 
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.7;
+  color: black;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+a {
+  color: #63b3ed;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.llm-image {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+
+
+.quote {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #63b3ed;
+  font-style: italic;
+  margin: 2rem 0;
+  color: black;
+}
+
+.next-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #63b3ed;
+  color: black;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  color: black;
+}
+
+.next-button:hover {
+  background-color: #4299e1;
+  color: black;
+}

@@ -1,0 +1,43 @@
+/* LLMGenerationPipeLine.css */
+
+.llm-pipeline-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.llm-pipeline-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.llm-pipeline-page h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: #2980b9;
+}
+
+.llm-pipeline-page p {
+  margin: 10px 0;
+}
+
+.llm-pipeline-page ul {
+  list-style-type: '🔹 ';
+  padding-left: 20px;
+}
+
+.llm-pipeline-page li {
+  margin-bottom: 8px;
+}
+
+.llm-pipeline-page .highlight {
+  background-color: #f0f9ff;
+  border-left: 4px solid #3498db;
+  padding: 10px;
+  margin: 15px 0;
+}
