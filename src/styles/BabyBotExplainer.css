@@ -1,0 +1,83 @@
+/* BabyBotExplainer.css */
+
+.context-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937; /* dark gray */
+  background-color: #f9fafb; /* light gray */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1e40af; /* dark blue */
+}
+
+.context-section {
+  border-radius: 1rem;
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+pre {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.score-table {
+  font-family: monospace;
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.score-table th,
+.score-table td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.score-table th {
+  background-color: #f3f4f6;
+}
+
+.score-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+/* Applies to the embedding table (inside <pre>) */
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+/* Optional: dark mode contrast tweak */
+@media (prefers-color-scheme: dark) {
+  pre {
+    background-color: #1e1e1e;
+    color: #eee;
+    border-color: #333;
+  }
+}
+

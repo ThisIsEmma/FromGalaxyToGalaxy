@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const planets = [
   { name: 'Language Models', radius: 100, speed: 0.01, size: 30 },
   { name: 'LLMGenerationPipeLine',           radius: 150, speed: 0.007, size: 25 },
-  { name: 'Hallucination',    radius: 200, speed: 0.005, size: 28 },
+  { name: 'Thoughts',    radius: 200, speed: 0.005, size: 28 },
   { name: 'LLMQuestion',        radius: 250, speed: 0.004, size: 22 }
 ];
 
@@ -95,7 +95,10 @@ useEffect(() => {
             navigate('/llm-question');
     }
             if (planet.name === 'LLMGenerationPipeLine') {
-            navigate('/llm-generation-pipeline');
+            navigate('/storybook');
+    }
+            if (planet.name === 'Thoughts') {
+            navigate('/thoughts-Pop-up');
     }
   }}
           >

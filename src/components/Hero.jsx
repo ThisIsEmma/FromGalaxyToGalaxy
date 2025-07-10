@@ -67,7 +67,7 @@ const Hero = () => {
     <>
       <canvas ref={canvasRef} className="background" />
       <div className="content">
-        <h1>From Galaxy to Galaxy</h1>
+        <h1>LLM</h1>
         <p>A journey through AI, narrative, and memory.</p>
         <button className="start-button" onClick={() => navigate('/galaxy-map')}>
   Start
