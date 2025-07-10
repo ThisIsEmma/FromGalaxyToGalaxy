@@ -68,7 +68,7 @@ const Hero = () => {
       <canvas ref={canvasRef} className="background" />
       <div className="content">
         <h1>LLM</h1>
-        <p>A journey through AI, narrative, and memory.</p>
+        <p>Evaluate LLMs potential applications and limitations in the current stage</p>
         <button className="start-button" onClick={() => navigate('/galaxy-map')}>
   Start
 </button>
